@@ -35,6 +35,7 @@ export class WeatherHomeComponent implements OnInit, OnDestroy {
 
   onSubmit(): void {
     this.getWeatherDatas(this.initialCityName);
+    console.log('CHAMOU A FUNÇÃO');
     this.initialCityName = '';
   }
 
