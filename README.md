@@ -1,27 +1,14 @@
-# WeatherApp
+Descrição do Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+Link do projeto ' 
 
-## Development server
+Este é um aplicativo de previsão do tempo que permite ao usuário visualizar informações meteorológicas atuais de uma determinada localidade. O app exibe dados como temperatura atual, mínima, máxima, umidade e velocidade do vento, além de apresentar imagens ilustrativas de acordo com a temperatura. O objetivo é fornecer uma interface simples, intuitiva e visualmente agradável para consulta rápida das condições climáticas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Tecnologias Utilizadas:
+Angular: Framework principal utilizado para o desenvolvimento da interface web e organização dos componentes.
+TypeScript: Linguagem utilizada para o desenvolvimento dos componentes, serviços e lógica do aplicativo.
+HTML/CSS: Estruturação e estilização da interface do usuário.
+Font Awesome: Biblioteca de ícones utilizada para exibir ícones visuais (ex: vento, temperatura, umidade).
+APIs de Previsão do Tempo: Consumo de dados meteorológicos em tempo real (ex: OpenWeatherMap ou similar).
+RxJS: Para manipulação reativa de dados e integração com serviços assíncronos.
+Bootstrap (opcional): Caso tenha sido utilizado para responsividade e layout.
